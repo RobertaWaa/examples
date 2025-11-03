@@ -12,7 +12,7 @@ RUN useradd -d /home/ftpuser -p "$(openssl passwd -6 ftpuserpass)" ftpuser
 # Configure vsftpd.
 RUN mkdir -p /var/run/vsftpd/empty && \
     touch /var/log/vsftpd.log
-RUN echo "ftpuser" > /etc/vsftpd.userlist 
+RUN echo "ftpuser" > /etc/vsftpd.userlist
 
 COPY ./vsftpd.conf /etc/vsftpd/vsftpd.conf
 

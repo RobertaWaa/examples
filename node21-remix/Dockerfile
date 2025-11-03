@@ -5,7 +5,7 @@ WORKDIR /usr/src
 FROM base AS build
 
 COPY package.json /usr/src/package.json
-RUN npm install 
+RUN npm install
 
 COPY . /usr/src/
 RUN npm run build

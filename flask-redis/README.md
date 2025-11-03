@@ -1,4 +1,4 @@
-# Compose: Flask and Redis
+# Flask with Redis
 
 This is a [Compose](https://unikraft.cloud/docs/guides/features/compose/)-based example of [Flask](https://flask.palletsprojects.com/en/3.0.x/) and [Redis](https://redis.io/).
 It is imported from the [`awesome-compose` repository](https://github.com/docker/awesome-compose).

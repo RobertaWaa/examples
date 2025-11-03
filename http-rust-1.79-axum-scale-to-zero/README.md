@@ -1,6 +1,6 @@
 # Example for app scale-to-zero integration
 
-This application provides an example of how to use the [Application Support for Scale-To-Zero](https://unikraft.cloud/docs/api/v1/instances/#application-support-for-scale-to-zero) feature. 
+This application provides an example of how to use the [Application Support for Scale-To-Zero](https://unikraft.cloud/docs/api/v1/instances/#application-support-for-scale-to-zero) feature.
 
 To run this example on Unikraft Cloud, first [install the `kraft` CLI tool](https://unikraft.org/docs/cli).
 Then clone this examples repository and `cd` into this directory, and invoke:
